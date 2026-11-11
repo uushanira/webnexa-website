@@ -3,9 +3,9 @@ export const COMPANY_INFO = {
   tagline: 'Software Development & IT Services',
   domain: 'webnexazz.com',
   // Replace these placeholders with your actual business contact details before launch
-  email: 'hello@webnexazz.example',
-  phone: '+1 (000) 000-0000 [Placeholder]',
-  location: 'Remote-First • Global Delivery [Update Location]',
+  email: 'webnexazz.contact@gmail.com',
+  phone: '+968 75162495',
+  location: 'India & Oman • Remote-First Global Delivery',
   hours: 'Mon – Fri, 9:00 AM – 6:00 PM [Update Timezone]',
   socials: [
     {

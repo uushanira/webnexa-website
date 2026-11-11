@@ -343,7 +343,12 @@ export default function ContactPage() {
                       <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
                         Phone
                       </p>
-                      <p className="mt-0.5 font-medium text-white">{COMPANY_INFO.phone}</p>
+                      <a
+                        href={`tel:${COMPANY_INFO.phone.replace(/\s+/g, '')}`}
+                        className="mt-0.5 block font-medium text-white hover:text-cyan-400 transition-colors"
+                      >
+                        {COMPANY_INFO.phone}
+                      </a>
                     </div>
                   </li>
 

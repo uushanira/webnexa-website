@@ -87,7 +87,12 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2.5">
                 <Phone className="h-4 w-4 text-cyan-400 shrink-0 mt-0.5" aria-hidden="true" />
-                <span>{COMPANY_INFO.phone}</span>
+                <a
+                  href={`tel:${COMPANY_INFO.phone.replace(/\s+/g, '')}`}
+                  className="hover:text-cyan-400 transition-colors"
+                >
+                  {COMPANY_INFO.phone}
+                </a>
               </li>
               <li className="flex items-start gap-2.5">
                 <MapPin className="h-4 w-4 text-cyan-400 shrink-0 mt-0.5" aria-hidden="true" />
